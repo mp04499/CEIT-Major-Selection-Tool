@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.f17.csci5539.team5.ceitmajorselectionapp.MainMenuActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select a major to explore:"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="#FFFFFF" />
+
+    <Button
+        android:id="@+id/CS_btn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_layout_style"
+        android:text="@string/cs" />
+
+    <Button
+        android:id="@+id/CE_btn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_layout_style"
+        android:text="@string/ce" />
+
+    <Button
+        android:id="@+id/IT_btn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_layout_style"
+        android:text="@string/it" />
+
+    <Button
+        android:id="@+id/IS_btn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_layout_style"
+        android:text="@string/is" />
+
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/back" />
+
+</LinearLayout>
+
+

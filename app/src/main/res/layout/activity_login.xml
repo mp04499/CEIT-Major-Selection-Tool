@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.f17.csci5539.team5.ceitmajorselectionapp.MainMenuActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gsulogo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\nEnter your email and password"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/email_edit_text"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/edit_text_style"
+        android:hint="Email"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/password_edit_text"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@drawable/edit_text_style"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/forgot_password_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:text="Forgot Password?"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/register_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Time? Register Now!"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+</LinearLayout>

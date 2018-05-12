@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context="com.f17.csci5539.team5.ceitmajorselectionapp.MainMenuActivity">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/gsulogo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create an Account"
+            android:textColor="@android:color/white"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/reg_fname_edit_text"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/edit_text_style"
+            android:hint="First Name"
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:id="@+id/reg_lname_edit_text"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/edit_text_style"
+            android:hint="Last Name"
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:id="@+id/reg_email_edit_text"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/edit_text_style"
+            android:hint="Email"
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:id="@+id/reg_password_text"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/edit_text_style"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:id="@+id/reg_confirm_password_text"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/edit_text_style"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:id="@+id/reg_high_school_text"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/edit_text_style"
+            android:hint="School - Optional"
+            android:paddingLeft="10dp" />
+        <!--
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="Admin use only:"
+
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dip"
+                    android:background="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/reg_admin_code_text"
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="
+                    android:background="@drawable/edit_text_style"
+                    android:hint="Admin Code"
+                    android:paddingLeft="10dp" />
+
+                <EditText
+                    android:id="@+id/reg_university_text"
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="15dp"
+                    android:background="@drawable/edit_text_style"
+                    android:hint="University"
+                    android:paddingLeft="10dp" /> -->
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:background="#FFFFFF" />
+
+
+        <Button
+            android:id="@+id/register_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Register" />
+
+        <TextView
+            android:id="@+id/login_exists_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account? Login"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</ScrollView>

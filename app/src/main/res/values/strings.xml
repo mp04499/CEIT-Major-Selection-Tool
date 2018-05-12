@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">CEIT Major Selection Tool</string>
+
+    <string name="name">CEIT Major Selection Tool</string>
+
+    <string name="back">Back</string>
+
+    <string name="CEIT_welcome">Welcome to the CEIT Major Selection Tool. This app was designed to help offer a major suggestion to incoming CEIT students interested in Computer Science, Information Technology, Software Engineering and Information Systems.</string>
+    <string name="CEIT_discover">Ready for a career in CEIT but not sure where to start? Tap on the discover button to take a short quiz.</string>
+    <string name="CEIT_explore">Read up on the available CEIT majors as well as potential careers by tapping below.</string>
+
+    <string name="cs">Computer Science</string>
+    <string name="ce">Computer Engineering</string>
+    <string name="it">Information Technology</string>
+    <string name="is">Information Systems</string>
+
+    <string name="cs_link">http://ceit.georgiasouthern.edu/cs/</string>
+    <string name="ce_link">http://ceit.georgiasouthern.edu/</string>
+    <string name="it_link">http://ceit.georgiasouthern.edu/it/</string>
+    <string name="is_link">http://coba.georgiasouthern.edu/is/</string>
+
+    <string name="cs_info">Computer Science:\nRanges from theoretical foundations to cutting-edge developments\nDevelop effective ways to solve computing problems\nDevise new ways to use computers/nDesigning and implementing software</string>
+    <string name="ce_info">Design and construction of computers, and computer based systems.\nDesign of digital hardware/software systems\nDevelopment of devices that have embedded systems\nIntegration of hardware and software</string>
+    <string name="it_info">Combination of knowledge and practical applications with hands-on expertise\nMaintain an organization’s information technology structure\nInstallation and maintenance of computer systems\nCurrent emphasis on networks</string>
+    <string name="is_info">Satisfy informational needs of businesses and organizations\nEmphasis on information rather than technology\nConcerned with information provided by computer systems\nDetermines requirements and design of an organization’s information systems</string>
+
+    <string name="cs_careers">Software Developer\nComputer Programmer\nSystems Analyst\nDatabase Administrator\nVideo Game Designer</string>
+    <string name="ce_careers">Computer Hardware Engineer\nComputer Systems Designer\nSoftware Engineer\nNetwork Architect\nElectronics Engineer</string>
+    <string name="it_careers">Network Administrator\nWeb Developer\nIT Security Specialist\nDatabase Administrator\nIT Applications Designer</string>
+    <string name="is_careers">Business Analyst\nIS Manager\nSystems Administrator\nData Analyst\nCloud Architect</string>
+
+    <string name="cs_colleges">Georgia Southern University, Berry College, Clark Atlanta University, Emory University, Fort Valley State University, Georgia Institute of Technology, Georgia Southwestern State University, Georgia State University, Kennesaw State University, Mercer University, Paine College, Piedmont College, Southern Polytechnic State University, University of Georgia, University of West Georgia</string>
+    <string name="ce_colleges">Georgia Southern University, Albany Technical College, Dalton State College, DeVry University, Georgia Institute of Technology, Georgia Piedmont Technical College, Mercer University, Omnitech Institute, Savannah State University, Southern Polytechnic State University, University of Georgia</string>
+    <string name="it_colleges">Georgia Southern University, Abraham Baldwin Agricultural College, Albany State University, American Intercontinental University, Armstrong Atlantic State University, Augusta State University, Brewton-Parker College, Clark Atlanta University, Clayton State University, College of Coastal Georgia, Columbus State University, Covenant College, Darton College, Fort Valley State University, Georgia College and State University, Georgia Gwinnett College, Georgia Institute of Technology, Georgia Military College, Georgia Southwestern State University, Georgia State University, Herzing University, Interactive College of Technology, Kennesaw State, LaGrange College, Life University, Lincoln College of Technology, Macon State College, Mercer University, Morehouse College, North Georgia College and State University, omnitech Institute, Savannah State University, Shorter University, South Georgia College, South University, Southern Polytechnic State University, Spelman College, University of Phoenix, University of West Georgia, Valdosta State University, WEsleyan College, Westwood College,  </string>
+    <string name="is_colleges">Georgia Southern University, Georgia Institute of Technology, Georgia State university, Morehouse College, mercer University, Valdosta State University, University of West Georgia, Columbus State University, Clayton State University, Clark Atlanta University</string>
+
+    <string name="about_general">This application was designed by students for Dr. Andrew Allen’s Software Engineering course at Georgia Southern University. The purpose of the CEIT Major Selection tool is to help incoming students find information on several majors within the ever-growing  field of technology.</string>
+    <string name="about_guide">Discovery - Answer questions to find out which major best suits your skills and interests.\nExplore - Find information about each of the majors including a description, possible career paths, and a list of colleges that offer the program.</string>
+    <string name="about_clients">Dr. O\' Malley\nDr. Adrian Gardiner\n</string>
+    <string name="about_dev_team">Christopher Poole\nCaelan Cooper\nCharles Eaton\nMichael Powell\nAmanjot Johal</string>
+    <string name="about_copyright">© 2017 Georgia Southern University</string>
+
+
+</resources>
